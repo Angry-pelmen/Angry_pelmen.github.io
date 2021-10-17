@@ -1,0 +1,92 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.logo {
+    color: #5108FD;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+    /* padding: 10px; */
+    height: 60px;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.nav-box {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.link {
+    color: #222;
+    text-decoration: none;
+}
+
+.link + .link {
+    margin-left: 40px;
+}
+
+.nav {
+    margin-right: 60px;
+    /* height: 100%; */
+}
+
+.btn {
+    appearance: none;
+    border: none;
+    background-color: #5108FD;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 4px;
+    padding: 6px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.home-box{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+.home-text-box {
+    width: 50%;
+}
+
+.home-image {
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.home {
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 50px;
+    color: #5108FD;
+}
+
+.filler-text {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
